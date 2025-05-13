@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/deez14234234/SysAlmacen.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/deez14234234/SysAlmacen.git'
                 }
             }
         }
